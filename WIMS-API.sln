@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wims.WebApi", "src\Wims.WebApi\Wims.WebApi.csproj", "{B88D0F9D-49FE-4E29-9170-A5FD3A97ECF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wims.Domain", "src\Wims.Domain\Wims.Domain.csproj", "{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B88D0F9D-49FE-4E29-9170-A5FD3A97ECF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88D0F9D-49FE-4E29-9170-A5FD3A97ECF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88D0F9D-49FE-4E29-9170-A5FD3A97ECF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88D0F9D-49FE-4E29-9170-A5FD3A97ECF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34252168-A800-4331-B0A2-D12D0767D2F2}
+	EndGlobalSection
+EndGlobal
