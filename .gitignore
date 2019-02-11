@@ -7,3 +7,5 @@
 /src/Wims.WebApi/bin/Debug/netcoreapp2.1
 /src/Wims.WebApi/obj
 /.vs/WIMS-API/v15
+/src/Wims.Data/obj
+/src/Wims.WebApi/Wims.WebApi.csproj.user

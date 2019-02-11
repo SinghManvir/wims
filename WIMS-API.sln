@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wims.WebApi", "src\Wims.WebApi\Wims.WebApi.csproj", "{B88D0F9D-49FE-4E29-9170-A5FD3A97ECF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wims.Domain", "src\Wims.Domain\Wims.Domain.csproj", "{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wims.Domain", "src\Wims.Domain\Wims.Domain.csproj", "{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wims.Data", "src\Wims.Data\Wims.Data.csproj", "{49C40FAA-8D1F-4C47-B0A1-848A9E59C63A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784BAC15-8D09-4958-A3F6-074AC2B8CAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C40FAA-8D1F-4C47-B0A1-848A9E59C63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C40FAA-8D1F-4C47-B0A1-848A9E59C63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C40FAA-8D1F-4C47-B0A1-848A9E59C63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C40FAA-8D1F-4C47-B0A1-848A9E59C63A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
