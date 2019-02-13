@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using Wims.Domain;
 
 namespace Wims.Data.Models
 {
-    public class EventDb
+    public class EventDb : BaseEntity
     {
         public string Name { get; set; }
 
@@ -15,6 +16,6 @@ namespace Wims.Data.Models
 
         public DateTime endDateTimeInUtc { get; set; }
 
-        public string[] Performers { get; set; }
+        public List<SevadaarDb> Sevadaars { get; set; }
     }
 }

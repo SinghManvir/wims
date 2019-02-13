@@ -1,6 +1,6 @@
 ﻿namespace Wims.Data.Models
 {
-    public class AddressDb
+    public class AddressDb : BaseEntity
     {
         public string AddressLine1 { get; set; }
 

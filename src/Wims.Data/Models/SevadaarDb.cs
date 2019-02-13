@@ -2,13 +2,13 @@
 
 namespace Wims.Data.Models
 {
-    public class LocationDb : BaseEntity
+    public class SevadaarDb : BaseEntity
     {
-        public string Name;
+        public string Name { get; set; }
 
-        public LocationType LocationType { get; set; }
+        public string ProfilePicture { get; set; }
 
-        public AddressDb Address { get; set; }
+        public SevaType SevaType { get; set; }
 
         public string Email { get; set; }
 
