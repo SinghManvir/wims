@@ -8,6 +8,7 @@ namespace Wims.Data
         public DbSet<AddressDb> Addresses { get; set; }
         public DbSet<EventDb> Events { get; set; }
         public DbSet<LocationDb> Locations { get; set; }
+        public DbSet<SevadaarDb> Sevadaars { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
