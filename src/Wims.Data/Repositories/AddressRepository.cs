@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Wims.Data.Models;
@@ -27,12 +26,12 @@ namespace Wims.Data.Repositories
 
         public async Task<ICollection<AddressDb>> GetAllAsync()
         {
-            return await Context.Query<AddressDb>().ToListAsync();
+            return await Context.Set<AddressDb>().ToListAsync();
         }
 
         public async Task<AddressDb> GetAsync(int id)
         {
-            return await Context.Query<AddressDb>().SingleAsync(x => x.Id == id);
+            return await Context.Set<AddressDb>().SingleAsync(x => x.Id == id);
         }
 
         public async Task<AddressDb> UpdateAsync(AddressDb addressDb)

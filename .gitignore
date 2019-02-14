@@ -1,14 +1,7 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
-/src/Wims.Domain/bin/Debug/netcoreapp2.1
-/src/Wims.Domain/obj
-/src/Wims.WebApi/bin/Debug/netcoreapp2.1
-/src/Wims.WebApi/obj
 /.vs/WIMS-API/v15
-/src/Wims.Data/obj
 /src/Wims.WebApi/Wims.WebApi.csproj.user
-/src/Wims.Data/bin/Debug/netcoreapp2.2
-/src/Wims.Domain/bin/Debug/netcoreapp2.2
-/src/Wims.WebApi/bin/Debug/netcoreapp2.2
+/src/**/bin
+/src/**/obj
