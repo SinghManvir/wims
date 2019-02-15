@@ -2,11 +2,11 @@
 
 namespace Wims.Data.Models
 {
-    public class LocationDb : BaseEntity
+    public class VenueDb : BaseEntity
     {
-        public string Name;
+        public string Name { get; set; }
 
-        public LocationType LocationType { get; set; }
+        public VenueType VenueType { get; set; }
 
         public AddressDb Address { get; set; }
 

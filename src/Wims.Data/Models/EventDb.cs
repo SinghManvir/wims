@@ -10,7 +10,7 @@ namespace Wims.Data.Models
 
         public EventType EventType { get; set; }
 
-        public LocationDb Location { get; set; }
+        public VenueDb Location { get; set; }
 
         public DateTime startDateTimeInUtc { get; set; }
 

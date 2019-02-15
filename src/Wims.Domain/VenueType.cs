@@ -1,6 +1,6 @@
 ﻿namespace Wims.Domain
 {
-    public enum LocationType
+    public enum VenueType
     {
         Gurudwara, University, CommunityHall, Others
     }

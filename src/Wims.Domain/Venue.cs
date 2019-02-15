@@ -2,11 +2,11 @@
 
 namespace Wims.Domain
 {
-    public class Location
+    public class Venue
     {
         public string Name;
 
-        public LocationType LocationType { get; set; }
+        public VenueType VenueType { get; set; }
 
         public Address Address { get; set; }
     }

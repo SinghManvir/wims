@@ -10,7 +10,7 @@ namespace Wims.Domain
 
         public EventType EventType { get; set; }
 
-        public Location Location { get; set; }
+        public Venue Location { get; set; }
 
         public DateTime startDateTimeInUtc { get; set; }
 

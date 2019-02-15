@@ -2,7 +2,7 @@
 
 namespace Wims.Data.Repositories
 {
-    public interface IAddressRepository : IDataRepository<AddressDb>
+    public interface IVenueRepository : IDataRepository<VenueDb>
     {
     }
 }
